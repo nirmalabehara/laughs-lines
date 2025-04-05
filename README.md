@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -72,3 +73,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 =======
 # laughs-lines
 >>>>>>> 83c51a2493aef36a9a1f7fa921a90366c4b73747
+=======
+# Laughs & Lines
+
+This project contains funny jokes to brighten your day! 😂
+>>>>>>> 118703d21eb1bcaea8e1f7d224aebbf2ba7ff1aa
