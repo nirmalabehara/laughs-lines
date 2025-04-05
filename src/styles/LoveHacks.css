@@ -1,0 +1,58 @@
+/* LoveHacks.css */
+.love-hacks-container {
+  text-align: center;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  background-color: black;
+  min-height: 100vh;
+  width:100%;
+  border-radius: 20px;
+  box-shadow: 2px 4px 10px white;
+}
+
+.love-hacks-title {
+  color: #ff4d79;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.love-hacks-subtitle {
+  font-size: 18px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.love-hacks-list {
+  max-width: 600px;
+  margin: auto;
+  text-align: left;
+
+}
+
+.love-hacks-question {
+  display: block;
+  width: 100%;
+  background-color: #ff4d79;
+  color: white;
+  border: none;
+  padding: 22px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: left;
+  transition: background 0.3s;
+  margin-bottom: 5px;
+}
+
+.love-hacks-question:hover {
+  background-color: #e63956;
+}
+
+.love-hacks-answer {
+  padding: 10px;
+  background-color: #ffe6e9;
+  border-radius: 5px;
+  margin-top: 5px;
+  font-size: 15px;
+}

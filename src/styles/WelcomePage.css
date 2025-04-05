@@ -1,0 +1,56 @@
+/* WelcomePage.css */
+body{
+  background-color: black;
+}
+.welcome-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 110vh;
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.logo-container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0;
+  color: #f9f9f9;
+}
+
+p {
+  font-size: 2rem;
+  margin-top: 10px;
+  font-family: fantasy;
+}
+
+.login-container {
+  margin-top: 30px;
+}
+
+.google-signin-btn {
+  background-color: crimson;
+  color: black;
+  font-size: 1.1rem;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.google-signin-btn:hover {
+  background-color: rgb(46, 42, 42);
+  color: wheat;
+}

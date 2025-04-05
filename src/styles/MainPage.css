@@ -1,0 +1,126 @@
+/* Overall Page Styling */
+.main-page {
+    text-align: center;
+    font-family: cursive;
+    background-color: black;
+    color: white;
+    padding: 50px 0;
+    position: relative; /* To allow positioning of profile section */
+}
+.profile-section {
+    position: absolute;
+    top: 15px; /* Adjust the top position */
+    right: 25px;
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Add spacing between icon and name */
+}
+
+.profile-icon-container {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.profile-icon {
+    width: 40px;  /* Increased size for better visibility */
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user-name {
+    font-size: 14px; /* Slightly larger for readability */
+    color: #fff; /* White text to contrast with the background */
+    font-weight: bold;
+}
+
+
+/* Sections Container */
+.sections-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 40px;
+    gap: 100px; /* Adds spacing between sections */
+}
+
+/* Jokes and Flirt Lines Sections */
+.section {
+    width: 100%;
+    padding: 60px 0;
+    text-align: center;
+    border-radius: 10px; /* Slightly rounded corners */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.6); /* White glow effect */
+    transition: 0.3s ease-in-out;
+}
+
+.section:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* Logos */
+.section-logo {
+    width: 160px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Headings */
+h1 {
+    font-size: 56px;
+    color: #ffcc00;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 28px;
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Paragraphs */
+p {
+    font-size: 18px;
+    margin: 10px auto;
+    max-width: 600px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.equal-paragraphs {
+    font-size: 18px;
+    font-family:cursive;
+    margin: 10px auto;
+    max-width: 600px;
+    line-height: 1.6;
+    color: rgb(251, 248, 248);
+}
+
+/* Explore Buttons */
+.explore-btn {
+    margin-top: 25px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: 0.5s;
+    
+    color: white;
+    border-radius: 10px;
+    border-color: white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.explore-btn:hover {
+    transform: scale(1.1);
+    background-color: white;
+    color: black;
+}
+.profile-icon-container{
+    size: 30px;
+}

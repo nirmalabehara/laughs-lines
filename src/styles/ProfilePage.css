@@ -1,0 +1,70 @@
+.profile-page {
+  text-align: center;
+  padding: 20px;
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: 2px 4px 10px white;
+  color: white;
+  min-height: 100vh;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.profile-info {
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 10px white;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+input[type="file"], input[type="text"] {
+  margin-top: 10px;
+  display: block;
+}
+
+.save-btn, .edit-btn {
+  background-color: #ff4081;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.favorites-section {
+  margin-top: 20px;
+}
+
+.favorites-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.favorites-section li {
+  margin-bottom: 5px;
+}
+
+.remove-btn {
+  margin-left: 10px;
+  background: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 3px;
+}
+h2{
+  color: white;
+}
